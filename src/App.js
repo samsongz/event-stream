@@ -52,6 +52,7 @@ class App extends Component {
     const listItems = items.map((item) => {
       return <div key={item.id} className="item">
         <div className="hoverSideBar"></div>
+
         <div className="itemBox1">
           <div className="itemTitle">{item.id}: {item.title}</div>
           <div className="itemTool">{item.tool}</div>
