@@ -1,20 +1,21 @@
+
 .eventStream {
   width: 100%;
   border: 1px solid black;
   overflow: scroll;
 }
 
-.title {
+.eventStream .title {
   padding: 20px;
 }
 
-.itemsList {
+.eventStream .itemsList {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.item {
+.eventStream .item {
   display: flex;
   font-size: 10px;
   border: 1px solid #E7E7E7;
@@ -23,14 +24,14 @@
   padding: 5px;
 }
 
-.itemTitle {
+.eventStream .itemTitle {
   font-family: Helvetica;
   font-size: 14px;
   color: #4D4D4D;
   order: 1;
 }
 
-.itemTool {
+.eventStream .itemTool {
   font-family: Helvetica;
   font-size: 12px;
   color: #939393;
@@ -38,7 +39,7 @@
   align-self: flex-end;
 }
 
-.itemDate {
+.eventStream .itemDate {
   font-family: Helvetica;
   order: 3;
   font-size: 11px;
@@ -46,6 +47,6 @@
 
 }
 
-.itemBox1 {
+.eventStream .itemBox1 {
 
 }
